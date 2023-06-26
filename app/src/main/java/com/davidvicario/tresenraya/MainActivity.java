@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    //Funcion del jugador AI, pone fichas aleatorias.
+    //Funcion del jugador AI, pone fichas aleatorias
     public void jugIA(){
         Random ran = new Random();
         int pos = ran.nextInt(tablero.length);
